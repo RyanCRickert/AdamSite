@@ -1,0 +1,9 @@
+.image__list {
+  display: flex;
+  text-align: center;
+}
+
+.thumbnail {
+  margin: $s-size;
+  max-width: 20rem;
+}

@@ -1,0 +1,11 @@
+.me-page {
+  background: fade-out($color: $dark-gray, $amount: .20);
+  border-radius: 5px;
+  color: $off-white;
+  font-size: 2.5rem;
+  padding: $l-size;
+}
+
+.inspiration-link {
+  float: right;
+}

@@ -1,0 +1,71 @@
+.button__custom {
+  background: fade-out($color: black, $amount: 0.9);
+  border: none;
+  border-radius: 5px;
+  color: rgb(43, 38, 38);
+  display: inline-block;
+  font-size: 7rem;
+  font-weight: 900;
+  height: 11rem;
+  margin: $s-size;
+  padding: auto;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  width: 16rem;
+  &:hover {
+    background: fade-out($color: black, $amount: 0.82);
+    color: rgb(43, 38, 38);
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+}
+
+.button-small__custom {
+  background: fade-out($color: black, $amount: 0.9);
+  border: none;
+  border-radius: 5px;
+  color: rgb(43, 38, 38);
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 700;
+  height: 6.1rem;
+  justify-content: center;
+  line-height: 4rem;
+  margin: $l-size $s-size;
+  padding: $s-size;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  width: 9.6rem;
+  &:hover {
+    background: fade-out($color: black, $amount: 0.82);
+    color: rgb(43, 38, 38);
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+}
+
+.button-active {
+  background: fade-out($color: black, $amount: 0.3);
+  color: $off-white;
+  transition: all 0.3s ease;
+  &:hover {
+    background: fade-out($color: black, $amount: 0.1);
+    color: $off-white;
+  }
+}
+
+.fa-button {
+  background: fade-out($color: black, $amount: 0.9);
+  border-radius: 5px;
+  color: black;
+  height: 5rem;
+  justify-content: space-around;
+  width: 7.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  &:hover {
+    color:black;
+    transform: scale(1.2);
+  }
+}

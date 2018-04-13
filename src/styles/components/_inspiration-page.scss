@@ -1,0 +1,274 @@
+.content-container__inspiration {
+  margin: 0 auto;
+  padding: 0 $m-size;
+  max-width: 120rem;
+}
+.fa-invert {
+  margin: auto 7px;
+}
+
+.inspiration {
+  background: fade-out($color: $gray, $amount: .75);
+  border: 2px solid black;
+  color: fade-out($color: white, $amount: 0.75);
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-top: $inspiration-margin;
+  padding: 1px;
+  user-select: none;
+  text-align: center;
+  transition: all 0.5s ease;
+  width: 31.62%;
+}
+
+.inspiration-container {
+  justify-content: space-between;
+  text-align: justify;
+  width: 100%;
+
+  .inspiration:nth-child(3n+2) {
+    margin: $inspiration-margin 3rem;
+  }
+}
+
+.inspiration-header {
+  align-items: center;
+  display: flex;
+  height: 8rem;
+  font-size: 3rem;
+  font-weight: 1000;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  user-select: none;
+  h1 {
+    margin: auto;
+  }
+}
+
+
+
+.inspiration-button {
+  background: fade-out($color: gray, $amount: .50);
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 600;
+  margin-right: 10px;
+  padding: 5px 10px 5px 5px;
+  transition: all 0.3s ease;
+  user-select: none;
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  .fineArt {
+    background: none;
+    border: 2px solid  rgb(80, 31, 19);
+    border-radius: 5px;
+    height: 15px;
+    margin: auto 4px;
+    transition: all 0.5s ease;
+    width: 15px;
+  }
+  
+  .game {
+    background: none;
+    border: 2px solid  rgb(151, 68, 0);
+    border-radius: 5px;
+    height: 15px;
+    margin: auto 4px;
+    transition: all 0.5s ease;
+    width: 15px;
+  }
+  
+  .literature {
+    background: none;
+    border: 2px solid  rgb(134, 107, 32);
+    border-radius: 5px;
+    height: 15px;
+    margin: auto 4px;
+    transition: all 0.5s ease;
+    width: 15px;
+  }
+  
+  .movie {
+    background: none;
+    border: 2px solid  rgb(21, 119, 98);
+    border-radius: 5px;
+    height: 15px;
+    margin: auto 4px;
+    transition: all 0.5s ease;
+    width: 15px;
+  }
+  
+  .music {
+    background: none;
+    border: 2px solid  rgb(102, 133, 218);
+    border-radius: 5px;
+    height: 15px;
+    margin: auto 4px;
+    transition: all 0.5s ease;
+    width: 15px;
+  }
+  
+  .tv {
+    background: none;
+    border: 2px solid  rgb(36, 20, 122);
+    border-radius: 5px;
+    height: 15px;
+    margin: auto 4px;
+    transition: all 0.5s ease;
+    width: 15px;
+  }
+}
+
+.inspiration-invert-button {
+  @extend .inspiration-button;
+  margin-right: 0;
+}
+
+// .inspiration-page {
+  
+// }
+
+.inspiration-selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+// .inspiration-selectors__invert {
+
+// }
+
+.inspiration-selectors__choices {
+  display: flex;
+  justify-content: space-between;
+  button {
+    border-radius: 5px;
+  }
+}
+
+////////   Individual styles for inspirations
+
+.fineArt__selected {
+  background: rgb(80, 31, 19);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.game__selected {
+  background: rgb(151, 68, 0);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.literature__selected {
+  background: rgb(134, 107, 32);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.movie__selected {
+  background: rgb(21, 119, 98);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.music__selected {
+  background: rgb(102, 133, 218);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.tv__selected {
+  background: rgb(36, 20, 122);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+////////    Individual styles for inspiration buttons
+
+.fineArt-button__selected {
+  background: rgb(80, 31, 19);
+  @extend .fineArt-button__unselected;
+}
+
+.fineArt-button__unselected {
+  border: 2px solid rgb(80, 31, 19);
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 4px;
+  transition: background 0.5s ease;
+  width: 15px;
+}
+
+.game-button__selected {
+  background: rgb(151, 68, 0);
+  @extend .game-button__unselected
+}
+
+.game-button__unselected {
+  border: 2px solid rgb(151, 68, 0);
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 4px;
+  transition: background 0.5s ease;
+  width: 15px;
+}
+
+.literature-button__selected {
+  background: rgb(134, 107, 32);
+  @extend .literature-button__unselected
+}
+
+.literature-button__unselected {
+  border: 2px solid rgb(134, 107, 32);
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 4px;
+  transition: background 0.5s ease;
+  width: 15px;
+}
+
+.movie-button__selected {
+  background: rgb(21, 119, 98);
+  @extend .movie-button__unselected
+}
+
+.movie-button__unselected {
+  border: 2px solid rgb(21, 119, 98);
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 4px;
+  transition: background 0.5s ease;
+  width: 15px;
+}
+
+.music-button__selected {
+  background: rgb(102, 133, 218);
+  @extend .music-button__unselected
+}
+
+.music-button__unselected {
+  border: 2px solid rgb(102, 133, 218);
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 4px;
+  transition: background 0.5s ease;
+  width: 15px;
+}
+
+.tv-button__selected {
+  background: rgb(36, 20, 122);
+  @extend .tv-button__unselected
+}
+
+.tv-button__unselected {
+  border: 2px solid rgb(36, 20, 122);
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 4px;
+  transition: background 0.5s ease;
+  width: 15px;
+}

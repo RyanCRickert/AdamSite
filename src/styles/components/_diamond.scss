@@ -1,0 +1,96 @@
+.diamond {
+  animation: floating 5s infinite;
+  background: red;
+  bottom: 105px;
+  cursor: pointer;
+  height: 20px;
+  left: 75px;
+  position: fixed;
+  transition: all 0.3s ease;
+  transform: rotate(135deg);
+  width: 20px;
+  z-index: 1000;
+  &:hover {
+    transform: rotate(225deg);
+  }
+}
+
+.diamond__shade {
+  animation: shade 5s infinite;
+  background:fade-out($color: #000000, $amount: .80);
+  border-radius: 10px;
+  bottom: 85px;
+  height: 5px;
+  left: 78px;
+  position: fixed;
+  width: 14px;
+}
+
+.diamond__shadow-bottom {
+  border-bottom: 15px solid fade-out($color: black, $amount: .65);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 7px;
+  height: 0;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 0;
+}
+
+.diamond__shadow-right {
+  border-bottom: 15px solid fade-out($color: black, $amount: .65);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 7px;
+  height: 0;
+  left: -10px;
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 0;
+}
+
+@keyframes floating {
+  0% {
+    bottom: 105px;
+    background: rgb(211, 115, 71);
+  }
+  25% {
+    bottom: 120px;
+    background: rgb(243, 243, 114);
+  }
+  50% {
+    bottom: 105px;
+    background: rgb(116, 215, 240);
+  }
+  75% {
+    bottom: 120px;
+    background: rgb(138, 233, 101);
+  }
+  100% {
+    bottom: 105px;
+    background: rgb(211, 115, 71);
+  }
+}
+
+@keyframes shade {
+  0% {
+    background:fade-out($color: #000000, $amount: .80);
+    transform: scale(1);
+  }
+  25% {
+    background:fade-out($color: #000000, $amount: .90);
+    transform: scale(1.4);
+  }
+  50% {
+    background:fade-out($color: #000000, $amount: .80);
+    transform: scale(1);
+  }
+  75% {
+    background:fade-out($color: #000000, $amount: .90);
+    transform: scale(1.4);
+  }
+  100% {
+    background:fade-out($color: #000000, $amount: .80);
+    transform: scale(1);
+  }
+}
