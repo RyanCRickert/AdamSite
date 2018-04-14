@@ -8,6 +8,7 @@ export default class ThreeDPage extends React.Component {
   constructor(props) {
     super(props);
 
+    this.list = twoD;
   }
 
   getThumbnailContent = (item) => {
@@ -24,7 +25,7 @@ export default class ThreeDPage extends React.Component {
           <Header />
         </div>
         <div className="image__list">
-          <PhotoSwipeGallery items={twoD} thumbnailContent={this.getThumbnailContent} options={{history: false}}/>
+          <PhotoSwipeGallery items={this.list} thumbnailContent={this.getThumbnailContent} options={{history: false}}/>
         </div>
       </div>
     )
