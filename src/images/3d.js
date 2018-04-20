@@ -3,8 +3,8 @@ const Elec = {
   alt: "Electrical diagram",
   title: "Electrical diagram",
   key: 0,
-  w: 640,
-  h: 480
+  w: 468,
+  h: 700
 
 };
 
@@ -13,8 +13,8 @@ const Goblin = {
   alt: "Goblin",
   title: "Goblin",
   key: 1,
-  w: 1280,
-  h: 960
+  w: 468,
+  h: 700
 };
 
 const NBARoof = {
@@ -22,8 +22,8 @@ const NBARoof = {
   alt: "NBA Allstars rooftop level (Unity)",
   title: "NBA Allstars rooftop level (Unity)",
   key: 2,
-  w: 1023,
-  h: 767
+  w: 468,
+  h: 700
 };
 
 const NBASelect = {
@@ -31,7 +31,7 @@ const NBASelect = {
   alt: "NBA Allstars team select (Unity)",
   title: "NBA Allstars team select (Unity)",
   key: 3,
-  w: 1120,
+  w: 468,
   h: 700
 };
 
@@ -40,8 +40,8 @@ const Paper = {
   alt: "Paper game concepts",
   title: "Paper game concepts",
   key: 4,
-  w: 960,
-  h: 1092
+  w: 468,
+  h: 700
 };
 
 const Q01 = {
@@ -49,8 +49,8 @@ const Q01 = {
   alt: "Game environment 1",
   title: "Game environment 1",
   key: 5,
-  w: 650,
-  h: 493
+  w: 468,
+  h: 700
 };
 
 const Q02 = {
@@ -58,8 +58,8 @@ const Q02 = {
   alt: "Game environment 2",
   title: "Game environment 2",
   key: 6,
-  w: 650,
-  h: 527
+  w: 468,
+  h: 700
 };
 
 const Q03 = {
@@ -67,8 +67,8 @@ const Q03 = {
   alt: "Game environment 3",
   title: "Game environment 3",
   key: 7,
-  w: 650,
-  h: 558
+  w: 468,
+  h: 700
 };
 
 const Q04 = {
@@ -76,8 +76,8 @@ const Q04 = {
   alt: "Game environment 4",
   title: "Game environment 4",
   key: 8,
-  w: 650,
-  h: 428
+  w: 468,
+  h: 700
 };
 
 const Q05 = {
@@ -85,8 +85,8 @@ const Q05 = {
   alt: "Game environment 5",
   title: "Game environment 5",
   key: 9,
-  w: 650,
-  h: 570
+  w: 468,
+  h: 700
 };
 
 const Samurai = {
@@ -94,8 +94,8 @@ const Samurai = {
   alt: "Samurai units",
   title: "Samurai units",
   key: 10,
-  w: 2360,
-  h: 1400
+  w: 468,
+  h: 700
 };
 
 export default [Samurai, Goblin, Paper, Q01, Q02, Q03, Q04, Q05,

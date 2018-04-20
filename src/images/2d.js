@@ -3,8 +3,8 @@ const Icons = {
   alt: "Application and pipe icons",
   title: "Application and pipe icons",
   key: 0,
-  w: 960,
-  h: 860
+  w: 468,
+  h: 700
 };
 
 const Building = {
@@ -12,8 +12,8 @@ const Building = {
   alt: "Brown Building Logo",
   title: "Brown Building Logo",
   key: 1,
-  w: 480,
-  h: 380
+  w: 468,
+  h: 700
 };
 
 const Lark = {
@@ -21,8 +21,8 @@ const Lark = {
   alt: "Lark logo",
   title: "Lark logo",
   key: 2,
-  w: 253,
-  h: 241
+  w: 468,
+  h: 700
 };
 
 const Machine = {
@@ -30,8 +30,8 @@ const Machine = {
   alt: "Bruiser and Scratch machine blueprints",
   title: "Bruiser and Scratch machine blueprints",
   key: 3,
-  w: 1024,
-  h: 600
+  w: 468,
+  h: 700
 };
 
 const Quin = {
@@ -39,8 +39,8 @@ const Quin = {
   alt: "Quintus Logo",
   title: "Quintus Logo",
   key: 4,
-  w: 980,
-  h: 800
+  w: 468,
+  h: 700
 };
 
 const Ship = {
@@ -48,8 +48,8 @@ const Ship = {
   alt: "Ship concepts",
   title: "Ship concepts",
   key: 5,
-  w: 1440,
-  h: 800
+  w: 468,
+  h: 700
 };
 
 const Xpert = {
@@ -57,8 +57,8 @@ const Xpert = {
   alt: "SimXpert logos",
   title: "SimXpert logos",
   key: 6,
-  w: 1072,
-  h: 796
+  w: 468,
+  h: 700
 };
 
 const Logos = {
@@ -66,8 +66,8 @@ const Logos = {
   alt: "Steel Penny Games Logo",
   title: "Steel Penny Games Logo",
   key: 7,
-  w: 1286,
-  h: 659
+  w: 468,
+  h: 700
 };
 
 const Sriracha = {
@@ -75,8 +75,8 @@ const Sriracha = {
   alt: "Sriracha concept",
   title: "Sriracha concept",
   key: 8,
-  w: 778,
-  h: 800
+  w: 468,
+  h: 700
 };
 
 const Tree = {
@@ -84,8 +84,8 @@ const Tree = {
   alt: "Tree concept",
   title: "Tree concept",
   key: 9,
-  w: 960,
-  h: 540
+  w: 468,
+  h: 700
 };
 
 const Units = {
@@ -93,8 +93,8 @@ const Units = {
   alt: "Units concepts",
   title: "Units concepts",
   key: 10,
-  w: 1082,
-  h: 900
+  w: 468,
+  h: 700
 };
 
 const Various = {
@@ -102,8 +102,8 @@ const Various = {
   alt: "Various icons used in drilling applications",
   title: "Various icons used in drilling applications",
   key: 11,
-  w: 418,
-  h: 356
+  w: 468,
+  h: 700
 };
 
 export default [Tree, Sriracha, Logos, Quin, Xpert, Various, Icons, Lark, Building,

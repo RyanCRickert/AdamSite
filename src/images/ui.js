@@ -3,8 +3,8 @@ const Axure = {
   alt: "Interactive Drilling Dashboard created in Axure",
   title: "Interactive Drilling Dashboard created in Axure",
   key: 0,
-  w: 1562,
-  h: 869
+  w: 468,
+  h: 700
 };
 
 const DrillEmail = {
@@ -12,8 +12,8 @@ const DrillEmail = {
   alt: "Custom Outlook email template",
   title: "Custom Outlook email template",
   key: 1,
-  w: 984,
-  h: 927
+  w: 468,
+  h: 700
 };
 
 const Drilling01 = {
@@ -21,8 +21,8 @@ const Drilling01 = {
   alt: "Real-time drilling job selection concept",
   title: "Real-time drilling job selection concept",
   key: 2,
-  w: 1404,
-  h: 800
+  w: 468,
+  h: 700
 };
 
 const Drilling02 = {
@@ -30,8 +30,8 @@ const Drilling02 = {
   alt: "Real-time drilling dashboard concept",
   title: "Real-time drilling dashboard concept",
   key: 3,
-  w: 1404,
-  h: 800
+  w: 468,
+  h: 700
 };
 
 const DrillingDash01 = {
@@ -39,8 +39,8 @@ const DrillingDash01 = {
   alt: "Real-time Web Drilling Dashboard",
   title: "Real-time Web Drilling Dashboard",
   key: 4,
-  w: 1592,
-  h: 929
+  w: 468,
+  h: 700
 };
 
 const DrillingDash02 = {
@@ -48,8 +48,8 @@ const DrillingDash02 = {
   alt: "Real-time Web Drilling Dashboard, alternate version",
   title: "Real-time Web Drilling Dashboard, alternate version",
   key: 5,
-  w: 1600,
-  h: 873
+  w: 468,
+  h: 700
 };
 
 const DrillingWeb = {
@@ -57,8 +57,8 @@ const DrillingWeb = {
   alt: "Responsive SharePoint site",
   title: "Responsive SharePoint site",
   key: 6,
-  w: 1211,
-  h: 1040
+  w: 468,
+  h: 700
 };
 
 const Healthcare = {
@@ -66,8 +66,8 @@ const Healthcare = {
   alt: "Healthcare dashboard mockup",
   title: "Healthcare dashboard mockup",
   key: 7,
-  w: 1024,
-  h: 768
+  w: 468,
+  h: 700
 };
 
 const Options = {
@@ -75,8 +75,8 @@ const Options = {
   alt: "Sriracha concept",
   title: "Sriracha concept",
   key: 8,
-  w: 828,
-  h: 635
+  w: 468,
+  h: 700
 };
 
 const Program01 = {
@@ -84,8 +84,8 @@ const Program01 = {
   alt: "Application UI concept",
   title: "Application UI concept",
   key: 9,
-  w: 1600,
-  h: 900
+  w: 468,
+  h: 700
 };
 
 const Program02 = {
@@ -93,8 +93,8 @@ const Program02 = {
   alt: "Application UI stylesheet",
   title: "Application UI stylesheet",
   key: 10,
-  w: 1175,
-  h: 1069
+  w: 468,
+  h: 700
 };
 
 const Puzzling = {
@@ -102,8 +102,8 @@ const Puzzling = {
   alt: "Bruiser and Scratch challenge room",
   title: "Bruiser and Scratch challenge room",
   key: 11,
-  w: 1024,
-  h: 600
+  w: 468,
+  h: 700
 };
 
 const TAAlpha = {
@@ -111,8 +111,8 @@ const TAAlpha = {
   alt: "Trivia Adventure mockups",
   title: "Trivia Adventure mockups",
   key: 12,
-  w: 1109,
-  h: 879
+  w: 468,
+  h: 700
 };
 
 const TABuildings = {
@@ -120,8 +120,8 @@ const TABuildings = {
   alt: "Trivia Adventure town mockup",
   title: "Trivia Adventure town mockup",
   key: 13,
-  w: 872,
-  h: 739
+  w: 468,
+  h: 700
 };
 
 const TACharCreate = {
@@ -129,8 +129,8 @@ const TACharCreate = {
   alt: "Trivia Adventure character creation",
   title: "Trivia Adventure character creation",
   key: 14,
-  w: 760,
-  h: 600
+  w: 468,
+  h: 700
 };
 
 const WebUI = {
@@ -138,8 +138,8 @@ const WebUI = {
   alt: "Responsive Web UI using Bootstrap",
   title: "Responsive Web UI using Bootstrap",
   key: 15,
-  w: 1351,
-  h: 1022
+  w: 468,
+  h: 700
 };
 
 export default [DrillingDash01, DrillingDash02, Axure, Program02, Program01, Drilling01, Drilling02, DrillingWeb,
