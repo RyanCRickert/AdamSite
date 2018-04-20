@@ -7,9 +7,8 @@
 }
 
 .gradient1 {
-  background: $bg1;
+  background: $bg1 no-repeat center center fixed;
   height: 100vh;
-  overflow: auto;
 }
 
 .background2 {
@@ -18,7 +17,7 @@
 }
 
 .gradient2 {
-  background: $bg2;
+  background: $bg2 no-repeat center center fixed;
   height: 100vh;
 }
 
@@ -28,7 +27,7 @@
 }
 
 .gradient3 {
-  background: $bg3;
+  background: $bg3 no-repeat center center fixed;
   height: 100vh;
 }
 
@@ -38,6 +37,6 @@
 }
 
 .gradient4 {
-  background: $bg4;
+  background: $bg4 no-repeat center center fixed;
   height: 100vh;
 }
