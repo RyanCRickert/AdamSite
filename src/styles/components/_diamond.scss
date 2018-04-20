@@ -13,6 +13,9 @@
   &:hover {
     transform: rotate(225deg);
   }
+  &:active {
+    transform: rotate(315deg);
+  }
 }
 
 .diamond__shade {
